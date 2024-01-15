@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "status",
+				"outputs": [
+					{
+						"internalType": "enum shippingstatus.STATUS",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"assignment/enum.sol": "shippingstatus"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"assignment/enum.sol": {
+			"keccak256": "0x9f1db67cee9f460045c949012e0743d9e101db6826abf32c071889dcefd0cfa7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ee7c28819dcf8b32012a94eaa41763ef9138837286433a76a962bdbe89af46e9",
+				"dweb:/ipfs/QmVxV4hdBbvB7YRMv2De23zzB7pTFXHnpSnBofcsFhZy95"
+			]
+		}
+	},
+	"version": 1
+}
